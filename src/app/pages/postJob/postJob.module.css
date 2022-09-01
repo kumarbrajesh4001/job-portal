@@ -1,0 +1,8 @@
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 992px) {
+  .postJobContainer {
+    width: 30%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,13 @@
+
+:root {
+  --selectedFilterCountSize: 1.5rem;
+ }
+
+.selectedFilterCount {
+  border-radius: 50%;
+  width: var(--selectedFilterCountSize);
+  height: var(--selectedFilterCountSize);
+  background: #f2b807;
+  color: #1f2830;
+}
+

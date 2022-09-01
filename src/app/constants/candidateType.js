@@ -1,0 +1,18 @@
+const CANDIDATE_TYPE = {
+  NEW: 1,
+  UNLOCK: 2,
+  APPLIED: 3,
+  MATCHING: 4,
+  SHORTLISTED: 5,
+  NOT_SUITABLE: 6,
+  INTERVIEWED: 7,
+  REJECTED_BY_EMPLOYER: 8, // Rejected By Me
+  HIRED: 9,
+  ACCEPTED_BY_CANDIDATE: 10, // Accepted
+  REJECTED_BY_CANDIDATE: 11, // Rejected
+  DELETED_BY_EMPLOYER: 12, // Deleted By Employer
+  DELETED_BY_CANDIDATE: 13, // Deleted By Candidate
+  BLOCKED_BY_EMPLOYER: 101, // Offered
+};
+
+export default CANDIDATE_TYPE;

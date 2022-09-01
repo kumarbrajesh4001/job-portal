@@ -1,0 +1,19 @@
+.link {
+  color: blue;
+  cursor: pointer;
+}
+.cardscrollbar {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.cardscrollbar::-webkit-scrollbar {
+  height: 2px;
+}
+.cardscrollbar::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+.widthMax {
+  width: max-content;
+}

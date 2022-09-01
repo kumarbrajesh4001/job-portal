@@ -1,0 +1,15 @@
+.subHeader {
+  background: #ffffff;
+}
+
+.buttonText {
+  font-weight: 700 !important;
+  font-size: 0.875rem !important;
+  line-height: 1.125rem !important;
+  letter-spacing: 0.006rem !important;
+  color: #1f2830 !important;
+  padding: 0 !important;
+  text-transform: none !important;
+  border-bottom: 0.063rem solid black !important;
+  border-radius: 0 !important;
+}

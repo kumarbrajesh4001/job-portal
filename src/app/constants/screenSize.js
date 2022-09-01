@@ -1,0 +1,2 @@
+const MOBILE_SCREEN_WIDTH = 713;
+export default MOBILE_SCREEN_WIDTH;

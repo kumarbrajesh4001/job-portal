@@ -1,0 +1,5 @@
+const PRODUCTS = {
+  POINTS: 'POINTS',
+  SUBSCRIPTION: 'SUBSCRIPTION',
+};
+export default PRODUCTS;

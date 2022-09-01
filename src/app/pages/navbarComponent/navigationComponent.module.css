@@ -1,0 +1,34 @@
+.header {
+  box-shadow: 0rem 0.1875rem 0.5rem rgba(72, 178, 255, 0.16);
+  z-index: 2;
+}
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.groupedRoutes {
+  border-radius: 1.25rem;
+  cursor: pointer;
+}
+.navLink {
+  text-decoration: none;
+}
+
+.active {
+  width: 64%;
+  height: 0.1875rem;
+  border-radius: 0.09375rem;
+  margin: 0 auto;
+}
+
+.activeKebabLink {
+  font-weight: 700;
+}
+
+.navLink:hover {
+  color: black;
+}

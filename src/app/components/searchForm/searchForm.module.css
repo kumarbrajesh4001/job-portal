@@ -1,0 +1,44 @@
+:root {
+  --searchButtonLength: 4.688rem;
+  --searchButtonLengthMobile: 4rem;
+}
+
+.searchFormField {
+  background: #ffffff;
+  box-shadow: 0rem 0.188rem 0.5rem rgba(72, 178, 255, 0.16);
+  border-radius: 2.344rem;
+}
+
+.searchFormField fieldset {
+  border: none;
+  outline: none;
+}
+
+.fieldHeading {
+  padding-left: 0.688rem;
+}
+
+/* search form select */
+.searchFormSelect {
+  border: none;
+}
+.searchFormSelect:focus {
+  box-shadow: none;
+}
+
+/* search form button */
+.searchFormButton {
+  width: var(--searchButtonLength);
+  height: var(--searchButtonLength);
+  background: #1d8ff2;
+  box-shadow: 0rem 0.188rem 0.5rem rgba(72, 178, 255, 0.16);
+  border-radius: 2.344rem;
+}
+
+.searchFormButtonMobile {
+  width: var(--searchButtonLengthMobile);
+  height: var(--searchButtonLengthMobile);
+  background: #1d8ff2;
+  box-shadow: 0rem 0.188rem 0.5rem rgba(72, 178, 255, 0.16);
+  border-radius: 2.344rem;
+}
